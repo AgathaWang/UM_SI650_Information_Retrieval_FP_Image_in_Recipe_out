@@ -9,7 +9,7 @@ recipe. To simplify these steps, we build a search engine to help people decide 
 of meal they would like to have based on the ingredients by only taking a picture. To
 realize this, we build a CNN classifier to recognize the vegetable in the input image and
 modify the returned label as a search query to generate recipes for users. The ranking
-method we have approached is BM25 and apply NDCG@10 as the evaluation metric to
+method we have approached is BM25 and NDCG@10 is applied as the evaluation metric to
 our search engine.
 
 More information could be accessed in this blog post: https://medium.com/information-retrieval/image-in-recipe-out-7c5198d8093f
