@@ -1,0 +1,27 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #00274C;
+    color: #FFCB05;
+    padding: 20px;
+    margin: 0;
+}
+
+.search {
+    margin: 30px 30px;
+}
+
+.container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 50% 50%;
+}
+
+.results {
+    text-align: center;
+}
